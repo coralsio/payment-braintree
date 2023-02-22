@@ -2,21 +2,27 @@
 
 namespace Corals\Modules\Payment\Braintree;
 
-use Illuminate\Support\ServiceProvider;
+use Corals\Foundation\Providers\BasePackageServiceProvider;
 use Corals\Settings\Facades\Modules;
 
-class BraintreeServiceProvider extends ServiceProvider
+class BraintreeServiceProvider extends BasePackageServiceProvider
 {
+    /**
+     * @var
+     */
     protected $defer = false;
+    /**
+     * @var
+     */
+    protected $packageCode = 'corals-payment-braintree';
 
     /**
      * Bootstrap the application events.
      *
      * @return void
      */
-    public function boot()
+    public function bootPackage()
     {
-        $this->registerModulesPackages();
     }
 
     /**
@@ -24,7 +30,7 @@ class BraintreeServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function registerPackage()
     {
     }
 
