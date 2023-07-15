@@ -6,6 +6,7 @@
 <p>&nbsp;</p>
 
 - Configure webooks : Please follow the instructions to set your webhook
+
 https://articles.braintreepayments.com/control-panel/webhooks
 
 Your Webhook URL should be
