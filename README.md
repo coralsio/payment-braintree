@@ -1,4 +1,6 @@
 # Corals Payment Braintree
+* Braintree subscriptions Plugin is the best Laravel Plugin for handling recurring billing for Braintree. integrate Braintree seamlessly with Laravel Subscription Platform to support provide PayPal card Credit card recurring billing, You can enable it along with other subscription gateways like stripe which is already built in with Laraship Subscriptions platform or configure it as a standalone payment gateway.
+* If you are a seller and want to set up preapproved payment agreements for your end users, such as recurring payments, subscriptions, automatic billing, and installment plans.you want to pay with Braintree every time you shop on a certain site, then Laraship Braintree subscription is your ultimate solution for this.
 
 - Under  Payment Settings, you can find a Tab called Braintree Add your settings there
 
